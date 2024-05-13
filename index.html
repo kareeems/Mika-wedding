@@ -36,6 +36,7 @@
       <p>Insya Allah akan melangsungkan pernikahan dalam:</p>
       <div class="simply-countdown"></div>
       <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+      
     </main>
 
   </section>
@@ -309,7 +310,7 @@
 
   <div id="audio-container">
     <audio id="song" autoplay loop>
-      <source src="audio/save-and-sound.mp3" type="audio/mp3">
+      <source src="audio/nasheed.mpeg" type="audio/mpeg">
     </audio>
 
     <div class="audio-icon-wrapper" style="display: none;">
@@ -379,7 +380,7 @@
     }
 
     function playAudio() {
-      song.volume = 0.1;
+      song.volume = 0.5;
       audioIconWrapper.style.display = 'flex';
       song.play();
       isPlaying = true;

@@ -184,7 +184,6 @@ body {
   text-align: center;
 }
 .quote,
-.gallery,
 .rsvp,
 .doa {
   padding-top: 10rem;
@@ -192,7 +191,6 @@ body {
 }
 
 .quote span,
-.gallery span,
 .doa span {
   text-transform: uppercase;
   color: #666;
@@ -203,7 +201,6 @@ body {
 }
 
 .quote p,
-.gallery p,
 .rsvp p,
 .doa p {
   font-size: 1rem;

@@ -454,7 +454,7 @@ footer li {
 /* mobile phone */
 @media (max-width: 567px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
   .hero h1 span.ampersand {
     display: block;
